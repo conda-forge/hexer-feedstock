@@ -14,11 +14,10 @@ source:
     - 10-missing-includes.patch
 
 build:
-  number: 0
-  skip: True  # [win]
+  number: 1
   features:
-    - vc9  # [win and py27]
-    - vc14  # [win and py>=35]
+    - vc14  # [win]
+  skip: True  # [win and py!=36]
 
 requirements:
   build:
@@ -27,20 +26,17 @@ requirements:
     - python  # [win]
     - libgdal 2.2.3
     - cairo 1.14.10
-    - msinttypes  # [win and py27]
-    - vc 9  # [win and py27]
-    - vc 14  # [win and py>=35]
+    - vc 14  # [win]
   run:
     - libgdal
     - cairo
-    - vc 9  # [win and py27]
-    - vc 14  # [win and py>=35]
+    - vc 14  # [win]
 
 test:
   commands:
     - test -f $PREFIX/lib/libhexer.dylib  # [osx]
     - test -f $PREFIX/lib/libhexer.so     # [linux]
-    - if not exist %PREFIX%\\Library\\lib\\hexer.lib exit 1  # [win]
+    - if not exist %LIBRARY_LIB%\\hexer.lib exit 1  # [win]
 
 about:
   home: https://github.com/hobu/hexer
