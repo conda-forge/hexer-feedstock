@@ -14,14 +14,16 @@ Summary: LAS and OGR hexagonal density and boundary surface generation
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hexer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hexer-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/hexer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hexer-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hexer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hexer-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/hexer-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/hexer-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/hexer-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/hexer-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/hexer-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/hexer-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hexer/badges/version.svg)](https://anaconda.org/conda-forge/hexer)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hexer/badges/downloads.svg)](https://anaconda.org/conda-forge/hexer)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-hexer-green.svg)](https://anaconda.org/conda-forge/hexer) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hexer.svg)](https://anaconda.org/conda-forge/hexer) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hexer.svg)](https://anaconda.org/conda-forge/hexer) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hexer.svg)](https://anaconda.org/conda-forge/hexer) |
 
 Installing hexer
 ================
