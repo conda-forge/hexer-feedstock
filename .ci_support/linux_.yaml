@@ -2,10 +2,16 @@ c_compiler:
 - toolchain_c
 cairo:
 - '1.14'
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
 cxx_compiler:
 - toolchain_cxx
+docker_image:
+- condaforge/linux-anvil
 libgdal:
-- '2.2'
+- '2.3'
 pin_run_as_build:
   cairo:
     max_pin: x.x
