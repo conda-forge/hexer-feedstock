@@ -14,7 +14,7 @@ source:
     - 10-missing-includes.patch
 
 build:
-  number: 4
+  number: 5
   skip: True  # [win and py!=36]
 
 requirements:
