@@ -14,12 +14,12 @@ source:
     - 10-missing-includes.patch
 
 build:
-  number: 5
-  skip: True  # [win and py!=36]
+  number: 6
 
 requirements:
   build:
     - cmake
+    - make                  # [unix]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
