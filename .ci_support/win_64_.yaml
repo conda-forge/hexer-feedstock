@@ -9,6 +9,6 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libgdal:
-- '3.6'
+- '3.7'
 target_platform:
 - win-64
