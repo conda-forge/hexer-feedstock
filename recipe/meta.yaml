@@ -14,13 +14,14 @@ source:
     - 10-missing-includes.patch
 
 build:
-  number: 6
+  number: 7
 
 requirements:
   build:
     - cmake
     - make                  # [unix]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
     - libgdal
