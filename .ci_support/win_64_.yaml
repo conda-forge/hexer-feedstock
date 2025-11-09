@@ -1,5 +1,7 @@
 c_compiler:
-- vs2019
+- vs2022
+c_stdlib:
+- vs
 cairo:
 - '1'
 channel_sources:
@@ -7,8 +9,8 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2019
+- vs2022
 libgdal:
-- '3.6'
+- '3.12'
 target_platform:
 - win-64
