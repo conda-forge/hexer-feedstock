@@ -1,11 +1,11 @@
-About hexer
-===========
+About hexer-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hexer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hobu/hexer
 
 Package license: LGPL 2.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hexer-feedstock/blob/main/LICENSE.txt)
 
 Summary: LAS and OGR hexagonal density and boundary surface generation
 
