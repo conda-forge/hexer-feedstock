@@ -1,5 +1,7 @@
 c_compiler:
 - vs2019
+c_stdlib:
+- vs
 cairo:
 - '1'
 channel_sources:
@@ -9,6 +11,6 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libgdal:
-- '3.6'
+- '3.9'
 target_platform:
 - win-64
